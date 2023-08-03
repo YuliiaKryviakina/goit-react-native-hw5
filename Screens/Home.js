@@ -13,11 +13,11 @@ import SvgPlus from '../assets/svg/SvgPlus';
 import SvgUser from '../assets/svg/SvgUser';
 import SvgTrash from '../assets/svg/SvgTrash';
 
-const ButtomTabs = createBottomTabNavigator();
+const BottomTabs = createBottomTabNavigator();
 
 const Home = () => {
   return (
-    <ButtomTabs.Navigator
+    <BottomTabs.Navigator
       id="home"
       screenOptions={{
         tabBarStyle: {
@@ -34,7 +34,7 @@ const Home = () => {
         tabBarInactiveTintColor: '#212121',
       }}
     >
-      <ButtomTabs.Screen
+      <BottomTabs.Screen
         name="Posts"
         component={PostScreen}
         options={({ navigation }) => ({
@@ -53,7 +53,7 @@ const Home = () => {
           },
         })}
       />
-      <ButtomTabs.Screen
+      <BottomTabs.Screen
         name="CreatePosts"
         component={CreatePostsScreen}
         options={({ navigation }) => ({
@@ -84,7 +84,7 @@ const Home = () => {
           },
         })}
       />
-      <ButtomTabs.Screen
+      <BottomTabs.Screen
         name="Profile"
         component={ProfileScreen}
         options={({ navigation, route }) => ({
@@ -112,7 +112,7 @@ const Home = () => {
           },
         })}
       />
-    </ButtomTabs.Navigator>
+    </BottomTabs.Navigator>
   );
 };
 

@@ -72,6 +72,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 25,
     borderTopRightRadius: 25,
   },
+
   title: {
     fontFamily: 'Roboto',
     fontStyle: 'normal',
@@ -84,6 +85,7 @@ const styles = StyleSheet.create({
     marginBottom: 32,
     color: '#212121',
   },
+
   avatarWrapper: {
     position: 'absolute',
     top: -60,
@@ -95,11 +97,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#f6f6f6',
     borderRadius: 16,
   },
+
   avatar: {
     width: 120,
     height: 120,
     borderRadius: 16,
   },
+
   btnAddAvatar: {
     position: 'absolute',
     bottom: 14,
@@ -115,6 +119,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
     borderRadius: 50,
   },
+
   btnAddAvatarLoad: {
     position: 'absolute',
     bottom: 14,
@@ -132,11 +137,13 @@ const styles = StyleSheet.create({
 
     transform: [{ rotate: '45deg' }],
   },
+
   btnAddAvatarSvg: {
     fill: '#ff6c00',
     stroke: '#ff6c00',
     backgroundColor: '#ffffff',
   },
+  
   btnAddAvatarSvgLoad: {
     fill: '#bdbdbd',
     stroke: '#e8e8e8',

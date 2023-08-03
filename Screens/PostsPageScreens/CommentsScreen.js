@@ -101,6 +101,7 @@ const styles = StyleSheet.create({
 
     backgroundColor: '#fff',
   },
+
   postImg: {
     height: 240,
     width: '100%',
@@ -110,6 +111,7 @@ const styles = StyleSheet.create({
 
     borderRadius: 8,
   },
+
   commentList: {
     // borderWidth: 1,
     // borderColor: '#f6f6f6',
@@ -118,6 +120,7 @@ const styles = StyleSheet.create({
     maxHeight: 312,
     marginBottom: 28,
   },
+
   inputCommentWrapper: {},
   commentInput: {
     position: 'relative',
@@ -132,6 +135,7 @@ const styles = StyleSheet.create({
     borderColor: '#e8e8e8',
     borderRadius: 100,
   },
+  
   commentBtn: {
     position: 'absolute',
     right: 8,

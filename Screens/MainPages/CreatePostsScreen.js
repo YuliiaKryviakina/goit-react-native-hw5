@@ -238,7 +238,7 @@ const CreatePostsScreen = () => {
               color: !postImg || !postName.trim() || !postLocation ? '#bdbdbd' : '#ffffff',
             }}
           >
-            Опубліковати
+            Опублікувати
           </Text>
         </TouchableOpacity>
 
